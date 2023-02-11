@@ -16,21 +16,15 @@ unzipfile "`f'.zip", replace
 }
 end
 /* START HELP FILE
-title[A command to export mrobust results into LaTex or Word]
+title[Downloads Fama-French factors]
 
 desc[
- {cmd:outmr} Exports results from mrobust into LaTex and Word.  Currently only LaTex is supported with minimal customization.
+ {cmd:wdff} Downloads Fama-French factors from "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html".
 ]
 
-opt[title(string)} Specifies the caption of the table.]
+opt[drop Deletes the zip files.]
 
-opt[label(string)} Specifies the label of the table]
 
-opt[notes(string)} Specifies the notes of the table]
-
-opt[coeflabels(string)} Specifies the format of the coefficient labels.  The current version of outmr is using the labels of each variable.  To include math notation in LaTex use \(\).]
-
-opt[dec(#)} Specifies the format of the coefficients.  The default is 4dp.]
 
 example[
 {pstd}Example 1: Setup

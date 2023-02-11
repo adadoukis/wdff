@@ -10,7 +10,7 @@
 {viewerjumpto "Examples" "wdff##examples"}{...}
 {title:Title}
 {phang}
-{bf:wdff} {hline 2} A command to export mrobust results into LaTex or Word
+{bf:wdff} {hline 2} Downloads Fama-French factors
 
 {marker syntax}{...}
 {title:Syntax}
@@ -25,7 +25,7 @@ anything
 {synoptline}
 
 {syntab:Optional}
-{synopt:{opt drop}}  
+{synopt:{opt drop}} Deletes the zip files.
 
 {synoptline}
 {p2colreset}{...}
@@ -36,14 +36,14 @@ anything
 {pstd}
 
 {pstd}
- {cmd:outmr} Exports results from mrobust into LaTex and Word.  Currently only LaTex is supported with minimal customization.
+ {cmd:wdff} Downloads Fama-French factors from "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html".
 
 {marker options}{...}
 {title:Options}
 {dlgtab:Main}
 
 {phang}
-{opt drop}  
+{opt drop}  Deletes the zip files.
 
 
 

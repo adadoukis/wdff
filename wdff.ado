@@ -2,7 +2,7 @@
 // A. Dadoukis
 
 capture program drop wdff
-program define wdff , rclass 
+program define wdff  
 version 14 
 syntax anything [, drop ]  
 

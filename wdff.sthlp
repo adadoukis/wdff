@@ -62,10 +62,6 @@ anything
 
 {phang2}{stata wdff F-F_Research_Data_Factors_daily_CSV Portfolios_Formed_on_ME_CSV, drop}
 
-{title:Stored results}
-
-{synoptset 15 tabbed}{...}
-
 
 {title:Author}
 {p}

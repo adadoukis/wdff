@@ -37,9 +37,8 @@ example[
 
 {phang2}{stata wdff F-F_Research_Data_Factors_daily_CSV Portfolios_Formed_on_ME_CSV, drop}
 ]
-freetext[
-{bf:Files Currently Supported}
-]
+{marker}{title: Supported Files}
+{p} Test here
 author[Aristeidis Dadoukis]
 institute[The University of Nottingham, Nottingham University Business School]
 email[aristeidis.dadoukis@gmail.com]

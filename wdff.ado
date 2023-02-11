@@ -38,7 +38,22 @@ example[
 {phang2}{stata wdff F-F_Research_Data_Factors_daily_CSV Portfolios_Formed_on_ME_CSV, drop}
 ]
 freetext[
-This is free text
+{bf:{ul{Files Currently Supports}}
+Changes in CRSP Data
+Fama/French 3 Factors: F-F_Research_Data_Factors_CSV
+Fama/French 3 Factors [Weekly]: F-F_Research_Data_Factors_weekly_CSV
+Fama/French 3 Factors [Daily]: F-F_Research_Data_Factors_daily_CSV
+Fama/French 5 Factors (2x3): F-F_Research_Data_5_Factors_2x3_CSV
+Fama/French 5 Factors (2x3) [Daily]: F-F_Research_Data_5_Factors_2x3_daily_CSV
+
+Univariate sorts on Size, B/M, OP, and Inv
+Portfolios Formed on Size: Portfolios_Formed_on_ME_CSV
+Portfolios Formed on Size [ex.Dividends]: Portfolios_Formed_on_ME_Wout_Div_CSV
+Portfolios Formed on Size [Daily]: Portfolios_Formed_on_ME_Daily_CSV
+
+Portfolios Formed on Book-to-Market : Portfolios_Formed_on_BE-ME_CSV
+Portfolios Formed on Book-to-Market [ex. Dividends]: Portfolios_Formed_on_BE-ME_Wout_Div_CSV
+Portfolios Formed on Book-to-Market [Daily]: Portfolios_Formed_on_BE-ME_Daily_CSV
 ]
 author[Aristeidis Dadoukis]
 institute[The University of Nottingham, Nottingham University Business School]

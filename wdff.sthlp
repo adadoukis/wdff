@@ -36,7 +36,7 @@ anything
 {pstd}
 
 {pstd}
- {cmd:wdff} Downloads Fama-French factors from "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html".
+ {cmd:wdff} Downloads Fama-French factors from {browse "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html"} "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html".
 
 {marker options}{...}
 {title:Options}
@@ -50,33 +50,7 @@ anything
 {marker examples}{...}
 {title:Examples}
 
-{pstd}Example 1: Setup
-
-{phang2}{stata sysuse nlsw88, clear}
-
-{pstd}Execute mrobust 
-
-{phang2}{stata mrobust regress union hours age grade collgrad married south smsa c_city ttl_exp tenure , noplot}
-
-{pstd}Export results to results.tex file
-
-{phang2}{stata outmr using results.tex, title(Add this title to the table) notes(This is a note) replace}
- 
-{pstd}Example 2: Setup
-
-{phang2}{stata sysuse nlsw88, clear}
-
-{pstd}Change the label of age to age_it 
-
-{phang2}{stata label var age "\(age_{it}\)"}
-
-{pstd}Execute mrobust 
-
-{phang2}{stata mrobust regress union hours age grade collgrad married south smsa c_city ttl_exp tenure , noplot}
-
-{pstd}Export results to results.tex file using 3 decimal points
-
-{phang2}{stata outmr using results.tex, title(Add this title to the table) notes(This is a note) dec(3) replace}
+{pstd}Example 1: Download Fama/French 3 Factors [Daily
 
 {title:Stored results}
 
@@ -91,10 +65,4 @@ Aristeidis Dadoukis, The University of Nottingham, Nottingham University Busines
 Email {browse "mailto:aristeidis.dadoukis@gmail.com":aristeidis.dadoukis@gmail.com}
 
 
-
-{title:See Also}
-Related commands:
-
-{help mrobust} (if installed) {stata ssc install mrobust, replace} (to install this command)
-{help texdoc}  (if installed) {stata ssc install texdoc, replace}  (to install this command)
 

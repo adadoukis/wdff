@@ -19,7 +19,7 @@ end
 title[Downloads Fama-French factors]
 
 desc[
- {cmd:wdff} Downloads Fama-French factors from {browse "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html"} "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html".
+ {cmd:wdff} Downloads Fama-French factors from {browse "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html"}.
 ]
 
 opt[drop Deletes the zip files.]

@@ -36,7 +36,7 @@ anything
 {pstd}
 
 {pstd}
- {cmd:wdff} Downloads Fama-French factors from {browse "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html"} "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html".
+ {cmd:wdff} Downloads Fama-French factors from {browse "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html"}.
 
 {marker options}{...}
 {title:Options}

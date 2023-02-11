@@ -38,6 +38,3 @@ institute[The University of Nottingham, Nottingham University Business School]
 email[aristeidis.dadoukis@gmail.com]
 
 END HELP FILE */
-
-
-

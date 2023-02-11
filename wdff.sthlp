@@ -63,7 +63,7 @@ anything
 {phang2}{stata wdff F-F_Research_Data_Factors_daily_CSV Portfolios_Formed_on_ME_CSV, drop}
 
 {pstd}
-Files Currently Supported
+{bf:Files Currently Supported}
 
 
 {title:Author}

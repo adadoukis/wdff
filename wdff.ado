@@ -37,8 +37,9 @@ example[
 
 {phang2}{stata wdff F-F_Research_Data_Factors_daily_CSV Portfolios_Formed_on_ME_CSV, drop}
 ]
-{pstd}The two main uses of SMCL are in the programs you compose and the help files you write to document them, although SMCL may be used in any context.  Everything Stata displays on the screen is processed by SMCL.
-
+freetext[
+This is free text
+]
 author[Aristeidis Dadoukis]
 institute[The University of Nottingham, Nottingham University Business School]
 email[aristeidis.dadoukis@gmail.com]

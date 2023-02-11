@@ -52,11 +52,11 @@ anything
 
 {pstd}Example 1: Download Fama/French 3 Factors Daily
 
-{phang2}{cmd:. wdff F-F_Research_Data_Factors_daily_CSV}
+{phang2}{stata wdff F-F_Research_Data_Factors_daily_CSV}
 
 {pstd}Example 2: Download Fama/French 3 Factors Daily and delete the zip file
 
-{phang2}{cmd:. wdff F-F_Research_Data_Factors_daily_CSV, drop}
+{phang2}{stata wdff F-F_Research_Data_Factors_daily_CSV, drop}
 
 {title:Stored results}
 

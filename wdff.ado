@@ -27,11 +27,11 @@ opt[drop Deletes the zip files.]
 example[
 {pstd}Example 1: Download Fama/French 3 Factors Daily
 
-{phang2}{wdff F-F_Research_Data_Factors_daily_CSV}
+{phang2}{cmd:. wdff F-F_Research_Data_Factors_daily_CSV}
 
 {pstd}Example 2: Download Fama/French 3 Factors Daily and delete the zip file
 
-{phang2}{wdff F-F_Research_Data_Factors_daily_CSV, drop}
+{phang2}{cmd:. wdff F-F_Research_Data_Factors_daily_CSV, drop}
 ]
 author[Aristeidis Dadoukis]
 institute[The University of Nottingham, Nottingham University Business School]

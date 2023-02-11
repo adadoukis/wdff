@@ -37,12 +37,6 @@ example[
 
 {phang2}{stata wdff F-F_Research_Data_Factors_daily_CSV Portfolios_Formed_on_ME_CSV, drop}
 ]
-
-{marker description}{...}
-{title:Description}
-{pstd}
-{cmd:makehlp} creates help files automatically from a Stata ado file. This should save developers some time as the helpfiles are not exactly WYSIWYG.
-
 author[Aristeidis Dadoukis]
 institute[The University of Nottingham, Nottingham University Business School]
 email[aristeidis.dadoukis@gmail.com]

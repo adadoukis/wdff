@@ -3,7 +3,7 @@
 // DO NOT FORGET to update the version of the package, if changed!
 // for more information visit http://github.com/haghish/github
 
-make outmr_pkg, replace toc pkg readme version(1)                            ///
+make wdff_pkg, replace toc pkg readme version(1)                             ///
      license("Academic Free License v3.0")                                   ///
      author("Aristeidis Dadoukis")                                           ///
      affiliation("")                                                         ///

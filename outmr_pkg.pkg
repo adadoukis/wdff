@@ -1,8 +1,0 @@
-v 1
-d 'OUTMR_PKG': Download Fama-French factors
-d 
-d Distribution-Date:   20230211
-d License: Academic Free License v3.0
-d 
-F wdff.ado
-F wdff.sthlp

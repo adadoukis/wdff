@@ -10,7 +10,7 @@
 {viewerjumpto "Examples" "wdff##examples"}{...}
 {title:Title}
 {phang}
-{bf:wdff} {hline 2} Downloads Fama-French factors
+{bf:wdff} {hline 2} Downloads Fama-French factors - LATEST VERSION with commands
 
 {marker syntax}{...}
 {title:Syntax}
@@ -50,7 +50,13 @@ anything
 {marker examples}{...}
 {title:Examples}
 
-{pstd}Example 1: Download Fama/French 3 Factors [Daily
+{pstd}Example 1: Download Fama/French 3 Factors Daily
+
+{phang2}{cmd:.wdff F-F_Research_Data_Factors_daily_CSV}
+
+{pstd}Example 2: Download Fama/French 3 Factors Daily and delete the zip file
+
+{phang2}{cmd:.wdff F-F_Research_Data_Factors_daily_CSV, drop}
 
 {title:Stored results}
 

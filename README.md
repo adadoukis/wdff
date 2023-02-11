@@ -1,7 +1,7 @@
 _v. 1_  
 
-`outmr_pkg` : Download Fama-French factors
-==========================================
+`wdff_pkg` : Download Fama-French factors
+=========================================
 
 
 ### License

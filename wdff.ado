@@ -16,7 +16,7 @@ unzipfile "`f'.zip", replace
 }
 end
 /* START HELP FILE
-title[Downloads Fama-French factors]
+title[Downloads Fama-French factors - LATEST VERSION with commands]
 
 desc[
  {cmd:wdff} Downloads Fama-French factors from {browse "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html"}.
@@ -25,13 +25,13 @@ desc[
 opt[drop Deletes the zip files.]
 
 example[
-{pstd}Example 1: Download Fama/French 3 Factors [Daily]
+{pstd}Example 1: Download Fama/French 3 Factors Daily
 
-{phang2}{wdff F-F_Research_Data_Factors_daily_CSV}
+{phang2}{cmd:.wdff F-F_Research_Data_Factors_daily_CSV}
 
-{pstd}Example 2: Download Fama/French 3 Factors [Daily] and delete the zip file
+{pstd}Example 2: Download Fama/French 3 Factors Daily and delete the zip file
 
-{phang2}{wdff F-F_Research_Data_Factors_daily_CSV, drop}
+{phang2}{cmd:.wdff F-F_Research_Data_Factors_daily_CSV, drop}
 ]
 author[Aristeidis Dadoukis]
 institute[The University of Nottingham, Nottingham University Business School]
